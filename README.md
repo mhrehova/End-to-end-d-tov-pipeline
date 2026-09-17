@@ -85,8 +85,8 @@ Celkový počet vrátení je malý (7 z 393 riadkov), čo obmedzuje štatistick�
 ![Return rate podľa kategórie](output/return_rate.png)
 <img width="960" height="600" alt="return_rate" src="https://github.com/user-attachments/assets/d0e57fc8-8e35-49df-8e96-17a9814e00bb" />
 
-**4. Hlbšie zľavy neťahajú objem hore — len znižujú maržu.**
-Marža klesá takmer lineárne s hĺbkou zľavy: 60.1 % (bez zľavy) → 57.1 % (1–10 %) → 52.3 % (11–20 %) → 46.9 % (20 %+), teda pokles o 13.2 p.b. Zároveň objem predaných kusov v pásme 20 %+ klesá spolu s maržou (len 25 kusov oproti 340 bez zľavy) — zľavy v tomto datasete teda neslúžia na zvýšenie objemu, len znižujú ziskovosť.
+**4. Vyššie zľavy neťahajú objem hore — len znižujú maržu.**
+Marža klesá takmer lineárne s výškou zľavy: 60.1 % (bez zľavy) → 57.1 % (1–10 %) → 52.3 % (11–20 %) → 46.9 % (20 %+), teda pokles o 13.2 p.b. Zároveň objem predaných kusov v pásme 20 %+ klesá spolu s maržou (len 25 kusov oproti 340 bez zľavy) — zľavy v tomto datasete teda neslúžia na zvýšenie objemu, len znižujú ziskovosť.
 
 ![Dopad zľavy na maržu](output/discount_impact_on_margin.png)
 <img width="960" height="600" alt="discount_impact_on_margin" src="https://github.com/user-attachments/assets/252fa5cb-12a4-4694-b109-458c9aae2eb5" />
