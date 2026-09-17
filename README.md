@@ -70,7 +70,8 @@ python python/analysis.py
 **1. Elektronika ťahá objem, nie efektivitu.**
 Elektronika generuje najvyššie tržby (11 302 €) aj najvyššiu maržu v absolútnych číslach (4 956 €), ale jej percentuálna marža (43.9 %) je jediná výrazne pod priemerom všetkých kategórií (56.0 %) — o 12.2 percentuálneho bodu nižšie. Kategórie ako Záhrada či Kozmetika majú nižší objem, ale vyššiu ziskovosť na jednotku tržieb (~59–60 %).
 
-![Marža podľa kategórie](output/margin_by_category.png)
+![Marža podľa kategórie](output/margin_by_category.png)<img width="960" height="600" alt="margin_by_category" src="https://github.com/user-attachments/assets/06f513ab-5218-4d3d-ad72-83d0f253eefa" />
+
 
 **2. Frekvencia nákupov ≠ hodnota zákazníka.**
 Zákazník s najvyššími tržbami (Michal Marek, 1 061 €) mal len 3 objednávky. Naopak zákazník s najviac objednávkami (Marek Hudák, 6 objednávok) mal priemernú hodnotu objednávky len 151 € — menej ako polovica priemeru top zákazníkov. Pri cielení marketingu na "verných" zákazníkov má zmysel pozerať sa aj na priemernú hodnotu objednávky, nie len na počet nákupov.
