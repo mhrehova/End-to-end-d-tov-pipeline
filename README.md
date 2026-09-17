@@ -77,16 +77,19 @@ Elektronika generuje najvyššie tržby (11 302 €) aj najvyššiu maržu v abs
 Zákazník s najvyššími tržbami (Michal Marek, 1 061 €) mal len 3 objednávky. Naopak zákazník s najviac objednávkami (Marek Hudák, 6 objednávok) mal priemernú hodnotu objednávky len 151 € — menej ako polovica priemeru top zákazníkov. Pri cielení marketingu na "verných" zákazníkov má zmysel pozerať sa aj na priemernú hodnotu objednávky, nie len na počet nákupov.
 
 ![Top zákazníci](output/top_customers.png)
+<img width="960" height="600" alt="top_customers" src="https://github.com/user-attachments/assets/4c14afcc-241c-42c6-baa9-bdcd3f9036e6" />
 
 **3. Return rate je nízky, ale nerovnomerný.**
 Celkový počet vrátení je malý (7 z 393 riadkov), čo obmedzuje štatistickú váhu záverov. Napriek tomu Knihy a hry majú najvyšší podiel vrátení (5.4 %), zatiaľ čo Elektronika má nižšie % (2.2 %), ale najvyšší finančný dopad vrátení (260 €) vzhľadom na vyššie ceny produktov.
 
 ![Return rate podľa kategórie](output/return_rate.png)
+<img width="960" height="600" alt="return_rate" src="https://github.com/user-attachments/assets/d0e57fc8-8e35-49df-8e96-17a9814e00bb" />
 
 **4. Hlbšie zľavy neťahajú objem hore — len znižujú maržu.**
 Marža klesá takmer lineárne s hĺbkou zľavy: 60.1 % (bez zľavy) → 57.1 % (1–10 %) → 52.3 % (11–20 %) → 46.9 % (20 %+), teda pokles o 13.2 p.b. Zároveň objem predaných kusov v pásme 20 %+ klesá spolu s maržou (len 25 kusov oproti 340 bez zľavy) — zľavy v tomto datasete teda neslúžia na zvýšenie objemu, len znižujú ziskovosť.
 
 ![Dopad zľavy na maržu](output/discount_impact_on_margin.png)
+<img width="960" height="600" alt="discount_impact_on_margin" src="https://github.com/user-attachments/assets/252fa5cb-12a4-4694-b109-458c9aae2eb5" />
 
 ## Použité technológie a zručnosti
 
