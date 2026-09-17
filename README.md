@@ -2,7 +2,7 @@
 
 End-to-end analytický pipeline nad relačným e-commerce datasetom — od surových dát cez SQLite databázu a SQL analýzu až po vizualizácie v Pythone a dashboard v Power BI.
 
-Projekt nadväzuje na [Power BI dashboard portfólio]([#](https://github.com/mhrehova/Analyza_Cien_Marze_A_Znizenia_Cien.pbix)) — rovnaký dataset, ale výpočty (marže, zľavy, return rate), ktoré boli pôvodne robené v Exceli/DAX, sú tu presunuté do SQL a Pythonu, aby dashboard mohol byť napojený priamo na databázu namiesto statického Excel súboru.
+Projekt nadväzuje na [Power BI dashboard portfólio]([https://github.com/mhrehova/Analyza_Cien_Marze_A_Znizenia_Cien.pbix]) — rovnaký dataset, ale výpočty (marže, zľavy, return rate), ktoré boli pôvodne robené v Exceli/DAX, sú tu presunuté do SQL a Pythonu, aby dashboard mohol byť napojený priamo na databázu namiesto statického Excel súboru.
 
 ## Prečo tento projekt
 
