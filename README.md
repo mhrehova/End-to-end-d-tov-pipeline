@@ -2,7 +2,7 @@
 
 End-to-end analytický pipeline nad relačným e-commerce datasetom — od surových dát cez SQLite databázu a SQL analýzu až po vizualizácie v Pythone a dashboard v Power BI.
 
-Projekt nadväzuje na [GymBeam Power BI dashboard portfólio](#) — rovnaký dataset, ale výpočty (marže, zľavy, return rate), ktoré boli pôvodne robené v Exceli/DAX, sú tu presunuté do SQL a Pythonu, aby dashboard mohol byť napojený priamo na databázu namiesto statického Excel súboru.
+Projekt nadväzuje na [Power BI dashboard portfólio](#) — rovnaký dataset, ale výpočty (marže, zľavy, return rate), ktoré boli pôvodne robené v Exceli/DAX, sú tu presunuté do SQL a Pythonu, aby dashboard mohol byť napojený priamo na databázu namiesto statického Excel súboru.
 
 ## Prečo tento projekt
 
@@ -65,8 +65,6 @@ python python/load_to_db.py
 python python/analysis.py
 ```
 
-Skript `analysis.py` vypíše do konzoly aj textové zhrnutie kľúčových zistení (rovnaké ako nižšie v tomto README).
-
 ## Kľúčové zistenia
 
 **1. Elektronika ťahá objem, nie efektivitu.**
@@ -95,8 +93,3 @@ Marža klesá takmer lineárne s hĺbkou zľavy: 60.1 % (bez zľavy) → 57.1 % 
 - **SQL**: DDL (tabuľky, PK/FK, indexy), JOIN, GROUP BY, CTE, window funkcie (`AVG() OVER()`, `RANK() OVER()`), CASE-based bucketing
 - **Power BI**: DAX mierky, dátový model, dashboard (pozri samostatné portfólio)
 
-## Ďalšie kroky
-
-- Napojiť Power BI priamo na `ecommerce.db` namiesto Excel súboru
-- Rozšíriť `analysis.py` o automatický export výsledkov do PDF reportu
-- Pridať jednoduché testy (napr. `pytest`) na overenie konzistencie dát po importe
